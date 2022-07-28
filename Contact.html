@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Koo-Kek</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script src="https://kit.fontawesome.com/cc05261f9f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assignment.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="header.js"></script>
+    <script>
+        function myalert() {
+            alert("Email has been submitted. Thank You for Signing Up for our Newsletter!");
+        }
+    </script>
+  </head>
+  <body>
+    <section id="header">
+      <div class="logo">
+          <ul>
+            <li><a href="#"><img src="images/logo.jpg" width= "80px"></a></li>
+            <li><h1>Koo-Kek</h1></li>
+          </ul>
+        </div>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="Assignment.html">Home</a></li>
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="Recipes.html">Recipes</a></li>
+          <li><a class="active" href="Contact.html">Contact</a></li>
+          <li><a href="Account.html">Account</a></li>
+          <li id="s-cart"><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="contact-header">
+      <h2>#leave_a_message</h2>
+      <p>We love to hear from you!!</p>
+    </section>
+
+    <section id="contact">
+      <div id="contactform">
+        <form action="https://formsubmit.co/diyanah1611@gmail.com" method="POST">
+           <fieldset>
+             <legend>Contact Us</legend>
+               <label for="name">Name <span>*</span></label>
+               <input type="text" id="name" name="name" placeholder="Name" required/><br>
+               <label for="email">Email <span>*</span></label>
+               <input type="email" id="email" name="email" placeholder="Email" required/><br>
+               <label for="message">Message <span>*</span></label>
+               <textarea id="message" name="message" rows="8" cols="80" required/></textarea>
+           </fieldset><br>
+        <!-- <input type="submit" value="Submit -->
+             <a href="submission.html">  <input type="submit" value="Submit"> </a>
+        </form>
+      </div>
+
+      <div id="map">
+        <h3>or Come down to our store!</h3>
+        <p>Mon - Sun, 10am - 9pm</p><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5552492604124!2d103.82266901409155!3d1.4417382616765375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1481030d8d1d%3A0x76e3597af3c28303!2sPolar%20Puffs%20%26%20Cakes!5e0!3m2!1sen!2ssg!4v1658561470964!5m2!1sen!2ssg" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+
+    <section id="contact-details" class="padd">
+
+    </section>
+
+    <section id="newsletter" class="mar padd">
+      <div class="newstext">
+        <h3>Sign Up For Our Newsletters</h3>
+        <p>Get E-mail updates about our latest menu and <span>special offers!</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Email Address">
+          <button type="button" onclick="myalert()" class="btn">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="mar padd">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>&nbsp 604 Sembawang Road, #B1-K6,<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Sembawang Shopping Centre,<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          Singapore 758459</p>
+        <p><strong>Phone:</strong>&nbsp(+65) 6752 2183</p>
+        <p><strong>Opening Hours:</strong>&nbsp10am-9pm, Mon-Sun</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+     <div class="col">
+        <h4>My Account</h4>
+        <a href="Acccount.html">Sign In</a>
+        <a href="#">Cart</a>
+        <a href="#">Track My Orders</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="images/ap.png" width="150px"alt="">
+          <img src="images/gp.jpg" width="150px" alt="">
+        </div>
+        <p>Secured Payment Gateaways</p>
+          <img src="images/pay.webp" width="300px"alt="">
+      </div>
+    </footer>
+
+      <div class="copyright">
+        <hr><br>
+        <p>&copy; 2022 Koo-Kek</p>
+      </div>
+
+  </body>
+</html>
